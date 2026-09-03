@@ -94,6 +94,7 @@ fun Project.multiplatformSetup() {
                     withJvm()
                     withIos()
                     withMacos()
+                    withTvos()
                 }
                 group("java"){
                     withJvm()
@@ -107,6 +108,7 @@ fun Project.multiplatformSetup() {
                     withJvm()
                     withIos()
                     withMacos()
+                    withTvos()
                     withJs()
                     withWasmJs()
                 }
@@ -132,6 +134,8 @@ fun Project.multiplatformSetup() {
         iosSimulatorArm64()
         macosX64()
         macosArm64()
+        tvosArm64()
+        tvosSimulatorArm64()
 
         js(IR) {
             browser()

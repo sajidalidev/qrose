@@ -8,6 +8,7 @@ pluginManagement {
 }
 plugins {
     id("org.gradle.toolchains.foojay-resolver-convention") version "0.8.0"
+    id("dev.sajidali.compose-tvos") version "1.4.1"
 }
 
 dependencyResolutionManagement {
